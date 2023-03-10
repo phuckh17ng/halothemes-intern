@@ -1,0 +1,230 @@
+* {
+	margin: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+li {
+	list-style: none;
+}
+ul {
+	padding: 0;
+}
+
+.nav--scroll {
+	height: 36px;
+	background-color: #ffe8e8;
+	width: 100%;
+}
+/* .nav--scroll p {
+	margin: auto;
+}
+.nav--scroll marquee {
+	color: #ca8b8b;
+} */
+.tag--title {
+	padding-bottom: 10px;
+}
+.tag--title::after {
+	content: "";
+	background: black;
+	position: absolute;
+	bottom: 0;
+	left: 40%;
+	height: 2.333333px;
+	width: 20%;
+}
+.btn--shop-now {
+	width: 194px;
+	height: 45px;
+	background-color: black;
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+	transition: ease-in-out;
+	transition-duration: 250ms;
+}
+
+.btn--shop-now:hover {
+	opacity: 0.7;
+	outline: none;
+	transition: ease-in-out;
+	transition-duration: 250ms;
+}
+.img--banner > img {
+	transform: scale(1.04);
+	transition: transform 0.5s ease;
+}
+.img--banner:hover > img {
+	transform: scale(1.3);
+	object-fit: none;
+}
+.img--banner:hover > div > span {
+	border-bottom: 2px solid white;
+}
+
+.product--banner {
+	cursor: pointer;
+	overflow: hidden;
+	width: 100%;
+}
+.product--banner > img {
+	transition: transform 0.5s ease;
+}
+.product--banner:hover > img {
+	transform: scale(1.1);
+	overflow: hidden;
+}
+.product--banner > button {
+	cursor: pointer;
+	overflow: hidden;
+	transform: translateY(50px);
+	transition: transform 0.5s ease;
+}
+
+.product--banner:hover > button {
+	display: block;
+	transform: translateY(0px);
+}
+.product--banner > button:hover {
+	background-color: white !important;
+	color: black !important;
+	border: 1px solid black;
+}
+.btn--show:hover {
+	background-color: #232323 !important;
+	color: white;
+	transition: linear;
+	transition-duration: 0.25s;
+}
+.btn--gallery:hover {
+	background-color: white !important;
+	color: black !important;
+	transition: linear;
+	transition-duration: 0.25s;
+	border: 1px solid #232323;
+}
+
+@media (max-width: 1200px) {
+	.multiple-items {
+		max-width: none;
+	}
+	.multiple-items > div {
+		width: 100%;
+	}
+}
+
+@media (max-width: 960px) {
+	.nav--scroll {
+		display: none !important;
+	}
+	.navbar-top-links {
+		display: none;
+	}
+	.navbar--brand-items > div {
+		display: none !important;
+	}
+	.navbar--brand-items > img {
+		margin-bottom: 10px;
+	}
+	.navbar--brand-items > span {
+		display: block !important;
+		margin-top: 5px;
+		cursor: pointer;
+	}
+	.navbar--brand {
+		height: 100% !important;
+	}
+	.home--products {
+		grid-template-columns: repeat(3, 1fr) !important;
+	}
+	.footer--form-submit {
+		width: 30% !important;
+	}
+	.footer--link-mask {
+		width: 60% !important;
+	}
+	.btn--email-submit {
+		margin-top: 10px !important;
+	}
+	.footer--social-media > div {
+		margin-right: 5px !important;
+	}
+}
+
+@media (max-width: 660px) {
+	.home--banner {
+		position: initial !important;
+		width: 100% !important;
+		margin-top: 20px;
+	}
+	.home--banner-2 {
+		display: block !important;
+		margin-top: 10px;
+	}
+	.img--banner {
+		width: 100% !important;
+		margin-top: 10px !important;
+	}
+	.home--products {
+		grid-template-columns: repeat(2, 1fr) !important;
+	}
+	.new-arrival {
+		width: 60% !important;
+	}
+	.footer--link-mobile {
+		display: block !important;
+	}
+	.footer--link {
+		display: none !important;
+	}
+	.footer {
+		flex-direction: column;
+	}
+	.btn--email-submit {
+		margin-top: 10px !important;
+	}
+	.footer--social-media {
+		margin-bottom: 20px !important;
+	}
+	.footer--form-submit {
+		width: 100% !important;
+	}
+	.footer--social-media > div {
+		margin-right: 10px !important;
+	}
+}
+@media (max-width: 480px) {
+	.home--products {
+		grid-template-columns: repeat(1, 1fr) !important;
+	}
+}
+
+.marquee {
+	width: 100%;
+	margin: 0 auto;
+	white-space: nowrap;
+	overflow: hidden;
+	box-sizing: border-box;
+	background-color: #ffe8e8;
+}
+
+.marquee span {
+	display: inline-block;
+	padding-left: 100%;
+	text-indent: 0;
+	animation: marquee 15s linear infinite;
+	color: #ca8b8b;
+}
+
+.marquee span:hover {
+	animation-play-state: paused;
+}
+
+/* Make it move */
+@keyframes marquee {
+	0% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(-100%, 0);
+	}
+}
