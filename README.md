@@ -1,5 +1,5 @@
 # halothemes-intern
-This project for Halothemes's internship
+This project for Halothemes's internship //
 Website link: https://phuckh17ng.github.io/halothemes-intern/
 
 - Layout desktop làm theo chính xác như design.
