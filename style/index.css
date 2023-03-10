@@ -1,6 +1,6 @@
 * {
 	margin: 0;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 li {
 	list-style: none;
@@ -203,6 +203,10 @@ ul {
 	.img--banner {
 		margin: 10px auto 0 auto !important;
 		width: 96% !important;
+	}
+	.ella--insta {
+		display: block !important;
+		text-align: center !important;
 	}
 }
 @media (max-width: 480px) {
