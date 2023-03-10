@@ -200,6 +200,10 @@ ul {
 	.footer--info > ul > li {
 		margin-right: 5px;
 	}
+	.img--banner {
+		margin: 10px auto 0 auto !important;
+		width: 96% !important;
+	}
 }
 @media (max-width: 480px) {
 	.home--products {
