@@ -191,6 +191,15 @@ ul {
 	.footer--social-media > div {
 		margin-right: 10px !important;
 	}
+	.footer--info {
+		display: block !important;
+	}
+	.footer--info > ul {
+		margin-top: 20px !important;
+	}
+	.footer--info > ul > li {
+		margin-right: 5px;
+	}
 }
 @media (max-width: 480px) {
 	.home--products {
