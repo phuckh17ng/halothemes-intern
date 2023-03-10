@@ -1,6 +1,6 @@
 # halothemes-intern
-This project for Halothemes's internship //
-Website link: https://phuckh17ng.github.io/halothemes-intern/
+This project for Halothemes's internship
+- Website link: https://phuckh17ng.github.io/halothemes-intern/
 
 - Layout desktop làm theo chính xác như design.
 - Layout tablet và mobile tự responsive đảm bảo layout gọn đẹp, không vỡ layout và trải nghiệm người dùng tốt.
